@@ -1,0 +1,123 @@
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+  --background-color: #ffffff;
+}
+
+.page {
+  background-color: var(--background-color);
+}
+
+.accent-web {
+  color: var(--accent-color);
+}
+
+.accent-studio {
+  color: #000000;
+}
+
+.accent-studio:hover {
+  color: var(--accent-color);
+}
+/* site nav */
+.site-nav a {
+  color: var(--primary-text-color);
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--accent-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.web-link .link-mail {
+  color: var(--title-text-color);
+}
+
+.web-link .link-mail:hover,
+.web-link .link-mail:focus {
+  color: var(--accent-color);
+}
+
+.web-link .link-tel {
+  color: var(--title-text-color);
+}
+
+.web-link .link-tel:hover,
+.web-link .link-tel:focus {
+  color: var(--accent-color);
+}
+/* Герой */
+.hero-title {
+  color: ;
+}
+
+/* button */
+.service {
+  background-color: var(--accent-color);
+  color: var(--background-color);
+}
+
+/* section */
+.section-title {
+  color: var(--primary-text-color);
+}
+
+/* paragraph */
+.paragraph .title {
+  color: var(--title-text-color);
+}
+
+/* command-list */
+.command-list .title {
+  color: var(--title-text-color);
+}
+
+/* actions */
+/* .actions-title-paragraph {
+  color: #212121;
+}
+
+.actions-text {
+  color: #757575;
+} */
+/* Чем мы занимаемся */
+/* .activity-title {
+  color: #212121;
+} */
+/* Наша команда */
+/* .command-title {
+  color: #212121;
+}
+
+.name-command-title {
+  color: #212121;
+}
+
+.profession-command-title {
+  color: #757575;
+}
+
+.accent-footer-logo {
+  color: ;
+}
+
+.address {
+  color: ;
+}
+
+.footer-mail {
+  color: ;
+}
+
+.footer-tel {
+  color: ;
+} */ ;
