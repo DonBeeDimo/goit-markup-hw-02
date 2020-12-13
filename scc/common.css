@@ -1,0 +1,34 @@
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+  --background-color: #ffffff;
+}
+
+.page {
+  background-color: var(--background-color);
+}
+.accent-web {
+  color: var(--accent-color);
+}
+
+.accent-studio {
+  color: #000000;
+}
+
+.accent-studio:hover {
+  color: var(--accent-color);
+}
+/* site nav */
+.site-nav a {
+  color: var(--primary-text-color);
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}

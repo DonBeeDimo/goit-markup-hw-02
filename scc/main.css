@@ -1,35 +1,3 @@
-:root {
-  --primary-text-color: #212121;
-  --title-text-color: #757575;
-  --accent-color: #2196f3;
-  --background-color: #ffffff;
-}
-
-.page {
-  background-color: var(--background-color);
-}
-
-.accent-web {
-  color: var(--accent-color);
-}
-
-.accent-studio {
-  color: #000000;
-}
-
-.accent-studio:hover {
-  color: var(--accent-color);
-}
-/* site nav */
-.site-nav a {
-  color: var(--primary-text-color);
-}
-
-.site-nav a:hover,
-.site-nav a:focus {
-  color: var(--accent-color);
-}
-
 a {
   text-decoration: none;
 }
@@ -81,31 +49,6 @@ li {
   color: var(--title-text-color);
 }
 
-/* actions */
-/* .actions-title-paragraph {
-  color: #212121;
-}
-
-.actions-text {
-  color: #757575;
-} */
-/* Чем мы занимаемся */
-/* .activity-title {
-  color: #212121;
-} */
-/* Наша команда */
-/* .command-title {
-  color: #212121;
-}
-
-.name-command-title {
-  color: #212121;
-}
-
-.profession-command-title {
-  color: #757575;
-}
-
 .accent-footer-logo {
   color: ;
 }
@@ -118,6 +61,16 @@ li {
   color: ;
 }
 
+.web-link .footer-mail:hover,
+.web-link .footer-mail:focus {
+  color: var(--accent-color);
+}
+
 .footer-tel {
   color: ;
-} */ ;
+}
+
+.web-link .footer-tel:hover,
+.web-link .footer-tel:focus {
+  color: var(--accent-color);
+}
