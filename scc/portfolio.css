@@ -1,0 +1,25 @@
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.site-nav .nav {
+  background-color: var(--background-color);
+  color: var(--primary-text-color);
+}
+
+.site-nav .nav:hover,
+.site-nav .nav:focus {
+  background-color: var(--accent-color);
+}
+
+.cart-list .title {
+  color: var(--title-text-color);
+}
+
+.link-cart {
+  color: inherit;
+}

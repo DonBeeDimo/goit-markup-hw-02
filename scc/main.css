@@ -8,6 +8,10 @@ li {
 
 .web-link .link-mail {
   color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .web-link .link-mail:hover,
@@ -17,6 +21,10 @@ li {
 
 .web-link .link-tel {
   color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .web-link .link-tel:hover,
@@ -26,6 +34,11 @@ li {
 /* Герой */
 .hero-title {
   color: ;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
 }
 
 /* button */
@@ -51,6 +64,7 @@ li {
 
 .accent-footer-logo {
   color: ;
+  font-family: Raleway;
 }
 
 .address {
