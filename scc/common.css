@@ -45,15 +45,15 @@ li {
 /* site nav */
 .site-nav a {
   color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .site-nav a:hover,
 .site-nav a:focus {
   color: var(--accent-color);
-
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
 }
 
 .site-nav .link.current {
@@ -114,11 +114,21 @@ li {
 .address {
   color: var(--background-color);
   background-color: var(--primary-text-color);
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .footer-mail {
   color: rgba(255, 255, 255, 0.6);
   background-color: var(--primary-text-color);
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .web-link .footer-mail:hover,
@@ -129,6 +139,11 @@ li {
 .footer-tel {
   color: rgba(255, 255, 255, 0.6);
   background-color: var(--primary-text-color);
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .web-link .footer-tel:hover,
